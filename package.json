@@ -1,0 +1,19 @@
+{
+  "name": "space-cat-cafe-v2",
+  "version": "1.0.0",
+  "description": "太空貓咖啡館 - 在浩瀚宇宙中，與貓咪共度美好時光",
+  "scripts": {
+    "start": "npx serve -s . -l $PORT"
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
+  },
+  "keywords": [
+    "space",
+    "cat",
+    "cafe",
+    "coffee"
+  ],
+  "author": "Space Cat Cafe",
+  "license": "MIT"
+}

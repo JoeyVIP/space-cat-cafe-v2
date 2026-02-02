@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>太空貓咖啡館 🐱☕✨</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/catcoffeelogo.png" alt="太空貓咖啡館 Logo">
+                <span>太空貓咖啡館</span>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">首頁</a></li>
+                <li><a href="#about" class="nav-link">關於我們</a></li>
+                <li><a href="#menu" class="nav-link">菜單</a></li>
+                <li><a href="#info" class="nav-link">營業資訊</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="stars"></div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="太空貓咖啡館">太空貓咖啡館</h1>
+            <p class="hero-subtitle">在浩瀚宇宙中，與貓咪共度美好時光</p>
+            <img src="assets/catcoffeemainv.png" alt="太空貓咖啡館主視覺" class="hero-image">
+            <a href="#menu" class="cta-button">探索菜單</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">關於我們</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>歡迎來到銀河系最溫暖的角落</h3>
+                    <p>在距離地球 42 光年的太空站上，有一間特別的咖啡館。這裡不僅有來自各個星球的頂級咖啡豆，還有一群可愛的太空貓陪伴著每一位旅人。</p>
+                    <p>我們的創辦人是一位熱愛咖啡與貓咪的星際旅行家。在一次偶然的機會下，他發現了這個被遺忘的太空站，並決定將它改造成一個溫馨的咖啡空間。</p>
+                    <p>這裡的每一隻貓咪都有自己的故事：有從火星救援回來的橘貓船長、來自土星環的優雅白貓公主，還有在小行星帶迷路被救回的調皮虎斑。</p>
+                    <div class="features">
+                        <div class="feature-item">
+                            <span class="feature-icon">☕</span>
+                            <h4>星際咖啡</h4>
+                            <p>來自銀河系各處的精選咖啡豆</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🐱</span>
+                            <h4>太空貓咪</h4>
+                            <p>12 隻可愛的太空貓等待與您相遇</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <h4>零重力體驗</h4>
+                            <p>在特殊區域享受漂浮用餐體驗</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/catcoffee店內裝潢.png" alt="太空貓咖啡館店內裝潢">
+                    <div class="image-caption">我們的宇宙風格空間</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">星際菜單</h2>
+
+            <!-- Coffee Menu -->
+            <div class="menu-category">
+                <h3 class="category-title">☕ 咖啡系列</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>星雲拿鐵</h4>
+                            <span class="price">NT$ 180</span>
+                        </div>
+                        <p class="item-description">使用來自獵戶座星雲的特級咖啡豆，搭配來自月球牧場的新鮮牛奶，口感絲滑香醇</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>黑洞美式</h4>
+                            <span class="price">NT$ 150</span>
+                        </div>
+                        <p class="item-description">濃郁的純黑咖啡，如同黑洞般深邃的風味，適合需要能量補給的星際旅人</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>極光卡布奇諾</h4>
+                            <span class="price">NT$ 190</span>
+                        </div>
+                        <p class="item-description">特調雙層漸層咖啡，如同北極星的極光般夢幻，奶泡綿密細緻</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>銀河摩卡</h4>
+                            <span class="price">NT$ 200</span>
+                        </div>
+                        <p class="item-description">濃郁巧克力與咖啡的完美結合，頂部綴以星空糖粉，甜而不膩</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>彗星冷萃</h4>
+                            <span class="price">NT$ 170</span>
+                        </div>
+                        <p class="item-description">72 小時低溫萃取，口感清爽帶有果香，如同彗星劃過的清涼</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>土星環焦糖瑪奇朵</h4>
+                            <span class="price">NT$ 210</span>
+                        </div>
+                        <p class="item-description">經典瑪奇朵加上手工焦糖，頂部的焦糖紋路如同土星環般美麗</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tea & Others -->
+            <div class="menu-category">
+                <h3 class="category-title">🍵 茶飲與特調</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>月光奶茶</h4>
+                            <span class="price">NT$ 140</span>
+                        </div>
+                        <p class="item-description">來自錫蘭星球的紅茶搭配月球牛奶，溫潤香甜如月光般柔和</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>星塵抹茶拿鐵</h4>
+                            <span class="price">NT$ 160</span>
+                        </div>
+                        <p class="item-description">京都星球的頂級抹茶粉，撒上可食用金箔如同星塵閃爍</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>流星果茶</h4>
+                            <span class="price">NT$ 130</span>
+                        </div>
+                        <p class="item-description">綜合莓果與花草茶的清新組合，酸甜適中如同流星般驚艷</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>宇宙氣泡飲</h4>
+                            <span class="price">NT$ 150</span>
+                        </div>
+                        <p class="item-description">特調水果氣泡飲，繽紛的色彩如同宇宙般璀璨迷人</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category">
+                <h3 class="category-title">🍰 甜點宇宙</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>星球提拉米蘇</h4>
+                            <span class="price">NT$ 180</span>
+                        </div>
+                        <p class="item-description">經典義式甜點，搭配可可粉繪製的星球圖案，入口即化</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>貓掌銅鑼燒</h4>
+                            <span class="price">NT$ 120</span>
+                        </div>
+                        <p class="item-description">可愛的貓掌造型銅鑼燒，內餡是特製紅豆泥，鬆軟香甜</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>銀河起司蛋糕</h4>
+                            <span class="price">NT$ 160</span>
+                        </div>
+                        <p class="item-description">濃郁綿密的紐約起司蛋糕，頂部的藍莓醬如同銀河般美麗</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>太空貓燒</h4>
+                            <span class="price">NT$ 100</span>
+                        </div>
+                        <p class="item-description">貓咪造型的鯛魚燒，卡士達內餡，外皮酥脆內餡香濃</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>隕石布朗尼</h4>
+                            <span class="price">NT$ 140</span>
+                        </div>
+                        <p class="item-description">濃郁巧克力布朗尼，搭配香草冰淇淋，外酥內軟口感豐富</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>宇宙馬卡龍 (3入)</h4>
+                            <span class="price">NT$ 150</span>
+                        </div>
+                        <p class="item-description">三種口味的精緻馬卡龍：星雲藍莓、土星芒果、火星覆盆子</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Light Meals -->
+            <div class="menu-category">
+                <h3 class="category-title">🍝 輕食星系</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>星際總匯三明治</h4>
+                            <span class="price">NT$ 220</span>
+                        </div>
+                        <p class="item-description">多層次的豐富配料：火腿、起司、生菜、番茄、雞蛋，搭配特製醬料</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>貓掌鬆餅套餐</h4>
+                            <span class="price">NT$ 250</span>
+                        </div>
+                        <p class="item-description">可愛的貓掌造型鬆餅，搭配新鮮水果、奶油、楓糖漿</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>太空人早午餐</h4>
+                            <span class="price">NT$ 320</span>
+                        </div>
+                        <p class="item-description">豐盛的早午餐拼盤：太陽蛋、培根、香腸、烤番茄、麵包、沙拉</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>星雲義大利麵</h4>
+                            <span class="price">NT$ 280</span>
+                        </div>
+                        <p class="item-description">可選奶油培根或番茄海鮮，麵條 Q 彈醬汁濃郁</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section id="info" class="info">
+        <div class="container">
+            <h2 class="section-title">營業資訊</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">🕐</div>
+                    <h3>營業時間</h3>
+                    <div class="info-details">
+                        <p><strong>週一至週五</strong></p>
+                        <p>11:00 - 21:00</p>
+                        <p><strong>週六至週日</strong></p>
+                        <p>10:00 - 22:00</p>
+                        <p class="note">最後點餐時間為打烊前 30 分鐘</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <h3>位置資訊</h3>
+                    <div class="info-details">
+                        <p><strong>地址</strong></p>
+                        <p>銀河系第 42 太空站</p>
+                        <p>L5 拉格朗日點</p>
+                        <p><strong>座標</strong></p>
+                        <p>α: 12h 34m 56s</p>
+                        <p>δ: +42° 13' 14"</p>
+                        <p class="note">可搭乘星際快線直達</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">💫</div>
+                    <h3>服務項目</h3>
+                    <div class="info-details">
+                        <p>✓ 內用座位 60 席</p>
+                        <p>✓ 零重力體驗區 20 席</p>
+                        <p>✓ 包廂空間 2 間</p>
+                        <p>✓ 外帶服務</p>
+                        <p>✓ 星際外送（限 3 光年內）</p>
+                        <p>✓ 寵物友善</p>
+                        <p>✓ 免費星際 WiFi</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">📞</div>
+                    <h3>聯絡方式</h3>
+                    <div class="info-details">
+                        <p><strong>量子通訊</strong></p>
+                        <p>+886-SPACE-CAT</p>
+                        <p><strong>電子郵件</strong></p>
+                        <p>hello@spacecatcafe.galaxy</p>
+                        <p><strong>社群媒體</strong></p>
+                        <p>@SpaceCatCafe</p>
+                        <p class="note">歡迎預約包廂與團體聚會</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">💳</div>
+                    <h3>付款方式</h3>
+                    <div class="info-details">
+                        <p>✓ 星際信用卡</p>
+                        <p>✓ 銀河 Pay</p>
+                        <p>✓ 星幣 (Starcoin)</p>
+                        <p>✓ 以太幣 (ETH)</p>
+                        <p>✓ 地球貨幣 (現金/卡片)</p>
+                        <p class="note">低消每人 NT$ 150</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">⚠️</div>
+                    <h3>注意事項</h3>
+                    <div class="info-details">
+                        <p>• 為維護貓咪健康，請勿自行餵食</p>
+                        <p>• 零重力區需穿著防護裝備</p>
+                        <p>• 拍照請關閉閃光燈</p>
+                        <p>• 用餐時間限制 2 小時</p>
+                        <p>• 12 歲以下需成人陪同</p>
+                        <p>• 禁止吸菸（包含電子煙）</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="special-notice">
+                <h3>🎉 最新消息</h3>
+                <div class="notice-content">
+                    <p><strong>會員招募中！</strong>成為星際會員享有：</p>
+                    <ul>
+                        <li>🎁 生日當月免費甜點一份</li>
+                        <li>💝 消費累積點數，兌換獨家商品</li>
+                        <li>⭐ 會員專屬活動與優惠</li>
+                        <li>🚀 優先預約零重力體驗區</li>
+                    </ul>
+                    <p><strong>本月特別活動：</strong>穿著太空主題服裝來店，即享全品項 9 折優惠！</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/catcoffeelogo.png" alt="太空貓咖啡館 Logo">
+                    <p>在浩瀚宇宙中，與貓咪共度美好時光</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速連結</h4>
+                    <ul>
+                        <li><a href="#home">首頁</a></li>
+                        <li><a href="#about">關於我們</a></li>
+                        <li><a href="#menu">菜單</a></li>
+                        <li><a href="#info">營業資訊</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>追蹤我們</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 太空貓咖啡館 Space Cat Cafe. All rights reserved across the galaxy.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
